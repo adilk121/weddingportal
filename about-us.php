@@ -1,5 +1,6 @@
 <?php
 ob_start();
+//header files
 require_once("includes/dbsmain.inc.php"); 
 ?>
 <?php
