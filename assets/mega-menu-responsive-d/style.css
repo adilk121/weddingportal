@@ -1,0 +1,115 @@
+
+.toggleMenu {
+    display: none;
+    background: #ffffff;
+    padding: 8px 10px;
+    color: #000 !important;
+    box-shadow: 1px 1px 10px #bfb9b9;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.nav {
+    list-style: none;
+     *zoom: 1;
+     background:#b10a0a;
+}
+.nav:before,
+.nav:after {
+    content: " "; 
+    display: table; 
+}
+.nav:after {
+    clear: both;
+}
+.nav ul {
+    list-style: none;
+    width: 9em; 
+}
+.nav a {
+   padding: 5px 15px;
+    color:#fff; font-size: 12px;
+}
+.nav li {
+    position: relative;
+}
+.nav > li {
+    float: left;
+    border-top: 1px solid #f94a4a;
+}
+.nav > li > .parent {
+    background-image: url("images/downArrow.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.nav > li > a {
+    display: block;
+}
+.nav li  ul {
+    position: absolute;
+    left: -9999px;
+}
+.nav > li.hover > ul {
+    left: 0;
+}
+.nav li li.hover ul {
+    left: 100%;
+    top: 0;
+}
+.nav li li a {
+    display: block;
+    background: #b10a0a;
+    position: relative;
+    z-index:100;
+    border-top: 1px solid #b10a0a;
+}
+.nav li li li a {
+    background:#cd0909;
+    z-index:200;
+    border-top: 1px solid #cd0909;
+}
+
+@media screen and (max-width: 768px) {
+    .active {
+        display: block;
+    }
+    .nav > li {
+        float: none;
+    }
+    .nav > li > .parent {
+        background-position: 95% 50%;
+    }
+    .nav li li .parent {
+        background-image: url("images/downArrow.png");
+        background-repeat: no-repeat;
+        background-position: 95% 50%;
+    }
+    .nav ul {
+        display: block;
+        width: 100%;
+    }
+   .nav > li.hover > ul , .nav li li.hover ul {
+        position: static;
+    }
+
+}
+	.dspfnrs{display:none;}
+	@media (min-width:320px) and (max-width:767px) 
+  {.nav>li>a:focus, .nav>li>a:hover {
+    text-decoration: none;
+    background-color: #da0b0b !important;
+    font-weight: bold !important;
+}
+	  .nav>li>a {
+    position: relative;
+    display: block;
+    padding: 5px 10px !important;
+}
+.dspfnrs {
+    display: block;
+    position: fixed;
+    top: 133px;
+    left: -16px;
+    /* right: 0; */
+    z-index: 999;
+	width: 100%;
+}}

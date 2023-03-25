@@ -1,0 +1,116 @@
+[22-Feb-2023 05:56:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function db_query() in /home3/thediann/public_html/designs4u/demo/dy/bestweddinghub/site-main-query.php:3
+Stack trace:
+#0 /home3/thediann/public_html/designs4u/demo/dy/bestweddinghub/header-top.php(3): include()
+#1 /home3/thediann/public_html/designs4u/demo/dy/bestweddinghub/vendors/index.php(1): include('/home3/thediann...')
+#2 {main}
+  thrown in /home3/thediann/public_html/designs4u/demo/dy/bestweddinghub/site-main-query.php on line 3
+[22-Feb-2023 05:57:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function db_query() in /home3/thediann/public_html/designs4u/demo/dy/bestweddinghub/site-main-query.php:3
+Stack trace:
+#0 /home3/thediann/public_html/designs4u/demo/dy/bestweddinghub/vendors/index.php(3): include()
+#1 {main}
+  thrown in /home3/thediann/public_html/designs4u/demo/dy/bestweddinghub/site-main-query.php on line 3
+[22-Feb-2023 06:11:02 UTC] PHP Warning:  Use of undefined constant SITE_WS_PATH - assumed 'SITE_WS_PATH' (this will throw an Error in a future version of PHP) in /home3/thediann/public_html/designs4u/demo/dy/bestweddinghub/site-header-login.php on line 1
+[22-Feb-2023 06:11:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function db_query() in /home3/thediann/public_html/designs4u/demo/dy/bestweddinghub/site-main-query.php:3
+Stack trace:
+#0 /home3/thediann/public_html/designs4u/demo/dy/bestweddinghub/header-top.php(3): include()
+#1 /home3/thediann/public_html/designs4u/demo/dy/bestweddinghub/site-header-login.php(25): include('/home3/thediann...')
+#2 /home3/thediann/public_html/designs4u/demo/dy/bestweddinghub/vendors/index.php(1): include('/home3/thediann...')
+#3 {main}
+  thrown in /home3/thediann/public_html/designs4u/demo/dy/bestweddinghub/site-main-query.php on line 3
+[22-Feb-2023 06:12:05 UTC] PHP Warning:  Use of undefined constant SITE_WS_PATH - assumed 'SITE_WS_PATH' (this will throw an Error in a future version of PHP) in /home3/thediann/public_html/designs4u/demo/dy/bestweddinghub/vendors/index.php on line 41
+[22-Feb-2023 06:12:05 UTC] PHP Warning:  include(header-top.php): failed to open stream: No such file or directory in /home3/thediann/public_html/designs4u/demo/dy/bestweddinghub/vendors/index.php on line 65
+[22-Feb-2023 06:12:05 UTC] PHP Warning:  include(header-top.php): failed to open stream: No such file or directory in /home3/thediann/public_html/designs4u/demo/dy/bestweddinghub/vendors/index.php on line 65
+[22-Feb-2023 06:12:05 UTC] PHP Warning:  include(): Failed opening 'header-top.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home3/thediann/public_html/designs4u/demo/dy/bestweddinghub/vendors/index.php on line 65
+[22-Feb-2023 06:12:05 UTC] PHP Warning:  Use of undefined constant SITE_WS_PATH - assumed 'SITE_WS_PATH' (this will throw an Error in a future version of PHP) in /home3/thediann/public_html/designs4u/demo/dy/bestweddinghub/vendors/index.php on line 98
+[22-Feb-2023 06:12:05 UTC] PHP Warning:  include(menu-responsive.php): failed to open stream: No such file or directory in /home3/thediann/public_html/designs4u/demo/dy/bestweddinghub/vendors/index.php on line 106
+[22-Feb-2023 06:12:05 UTC] PHP Warning:  include(menu-responsive.php): failed to open stream: No such file or directory in /home3/thediann/public_html/designs4u/demo/dy/bestweddinghub/vendors/index.php on line 106
+[22-Feb-2023 06:12:05 UTC] PHP Warning:  include(): Failed opening 'menu-responsive.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home3/thediann/public_html/designs4u/demo/dy/bestweddinghub/vendors/index.php on line 106
+[22-Feb-2023 06:13:35 UTC] PHP Warning:  Use of undefined constant SITE_WS_PATH - assumed 'SITE_WS_PATH' (this will throw an Error in a future version of PHP) in /home3/thediann/public_html/designs4u/demo/dy/bestweddinghub/vendors/index.php on line 41
+[22-Feb-2023 06:13:35 UTC] PHP Warning:  include(header-top.php): failed to open stream: No such file or directory in /home3/thediann/public_html/designs4u/demo/dy/bestweddinghub/vendors/index.php on line 65
+[22-Feb-2023 06:13:35 UTC] PHP Warning:  include(header-top.php): failed to open stream: No such file or directory in /home3/thediann/public_html/designs4u/demo/dy/bestweddinghub/vendors/index.php on line 65
+[22-Feb-2023 06:13:35 UTC] PHP Warning:  include(): Failed opening 'header-top.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home3/thediann/public_html/designs4u/demo/dy/bestweddinghub/vendors/index.php on line 65
+[22-Feb-2023 06:13:35 UTC] PHP Warning:  Use of undefined constant SITE_WS_PATH - assumed 'SITE_WS_PATH' (this will throw an Error in a future version of PHP) in /home3/thediann/public_html/designs4u/demo/dy/bestweddinghub/vendors/index.php on line 98
+[22-Feb-2023 06:13:35 UTC] PHP Warning:  include(menu-responsive.php): failed to open stream: No such file or directory in /home3/thediann/public_html/designs4u/demo/dy/bestweddinghub/vendors/index.php on line 106
+[22-Feb-2023 06:13:35 UTC] PHP Warning:  include(menu-responsive.php): failed to open stream: No such file or directory in /home3/thediann/public_html/designs4u/demo/dy/bestweddinghub/vendors/index.php on line 106
+[22-Feb-2023 06:13:35 UTC] PHP Warning:  include(): Failed opening 'menu-responsive.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home3/thediann/public_html/designs4u/demo/dy/bestweddinghub/vendors/index.php on line 106
+[09-Mar-2023 04:38:27 UTC] PHP Parse error:  syntax error, unexpected end of file in /home3/thediann/public_html/designs4u/demo/dy/bestweddinghub/vendors/index.php on line 215
+[09-Mar-2023 04:38:52 UTC] PHP Parse error:  syntax error, unexpected end of file in /home3/thediann/public_html/designs4u/demo/dy/bestweddinghub/vendors/index.php on line 215
+[10-Mar-2023 02:46:22 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'thediann_bestweddinghub'@'localhost' (using password: YES) in /home2/thebestwed/public_html/vendors/database_connection.php:5
+Stack trace:
+#0 /home2/thebestwed/public_html/vendors/database_connection.php(5): PDO->__construct('mysql:host=loca...', 'thediann_bestwe...', '!+.ub,fL$O7Y')
+#1 /home2/thebestwed/public_html/vendors/index.php(5): include('/home2/thebestw...')
+#2 {main}
+  thrown in /home2/thebestwed/public_html/vendors/database_connection.php on line 5
+[10-Mar-2023 02:46:26 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'thediann_bestweddinghub'@'localhost' (using password: YES) in /home2/thebestwed/public_html/vendors/database_connection.php:5
+Stack trace:
+#0 /home2/thebestwed/public_html/vendors/database_connection.php(5): PDO->__construct('mysql:host=loca...', 'thediann_bestwe...', '!+.ub,fL$O7Y')
+#1 /home2/thebestwed/public_html/vendors/index.php(5): include('/home2/thebestw...')
+#2 {main}
+  thrown in /home2/thebestwed/public_html/vendors/database_connection.php on line 5
+[10-Mar-2023 02:46:28 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'thediann_bestweddinghub'@'localhost' (using password: YES) in /home2/thebestwed/public_html/vendors/database_connection.php:5
+Stack trace:
+#0 /home2/thebestwed/public_html/vendors/database_connection.php(5): PDO->__construct('mysql:host=loca...', 'thediann_bestwe...', '!+.ub,fL$O7Y')
+#1 /home2/thebestwed/public_html/vendors/index.php(5): include('/home2/thebestw...')
+#2 {main}
+  thrown in /home2/thebestwed/public_html/vendors/database_connection.php on line 5
+[10-Mar-2023 05:39:43 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'thediann_bestweddinghub'@'localhost' (using password: YES) in /home2/thebestwed/public_html/vendors/database_connection.php:5
+Stack trace:
+#0 /home2/thebestwed/public_html/vendors/database_connection.php(5): PDO->__construct('mysql:host=loca...', 'thediann_bestwe...', '!+.ub,fL$O7Y')
+#1 /home2/thebestwed/public_html/vendors/index.php(5): include('/home2/thebestw...')
+#2 {main}
+  thrown in /home2/thebestwed/public_html/vendors/database_connection.php on line 5
+[10-Mar-2023 05:39:46 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'thediann_bestweddinghub'@'localhost' (using password: YES) in /home2/thebestwed/public_html/vendors/database_connection.php:5
+Stack trace:
+#0 /home2/thebestwed/public_html/vendors/database_connection.php(5): PDO->__construct('mysql:host=loca...', 'thediann_bestwe...', '!+.ub,fL$O7Y')
+#1 /home2/thebestwed/public_html/vendors/index.php(5): include('/home2/thebestw...')
+#2 {main}
+  thrown in /home2/thebestwed/public_html/vendors/database_connection.php on line 5
+[11-Mar-2023 07:02:13 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'thediann_bestweddinghub'@'localhost' (using password: YES) in /home2/thebestwed/public_html/vendors/database_connection.php:5
+Stack trace:
+#0 /home2/thebestwed/public_html/vendors/database_connection.php(5): PDO->__construct('mysql:host=loca...', 'thediann_bestwe...', '!+.ub,fL$O7Y')
+#1 /home2/thebestwed/public_html/vendors/index.php(5): include('/home2/thebestw...')
+#2 {main}
+  thrown in /home2/thebestwed/public_html/vendors/database_connection.php on line 5
+[13-Mar-2023 05:10:48 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'thediann_bestweddinghub'@'localhost' (using password: YES) in /home2/thebestwed/public_html/vendors/database_connection.php:5
+Stack trace:
+#0 /home2/thebestwed/public_html/vendors/database_connection.php(5): PDO->__construct('mysql:host=loca...', 'thediann_bestwe...', '!+.ub,fL$O7Y')
+#1 /home2/thebestwed/public_html/vendors/index.php(5): include('/home2/thebestw...')
+#2 {main}
+  thrown in /home2/thebestwed/public_html/vendors/database_connection.php on line 5
+[13-Mar-2023 05:10:50 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'thediann_bestweddinghub'@'localhost' (using password: YES) in /home2/thebestwed/public_html/vendors/database_connection.php:5
+Stack trace:
+#0 /home2/thebestwed/public_html/vendors/database_connection.php(5): PDO->__construct('mysql:host=loca...', 'thediann_bestwe...', '!+.ub,fL$O7Y')
+#1 /home2/thebestwed/public_html/vendors/index.php(5): include('/home2/thebestw...')
+#2 {main}
+  thrown in /home2/thebestwed/public_html/vendors/database_connection.php on line 5
+[13-Mar-2023 05:10:53 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'thediann_bestweddinghub'@'localhost' (using password: YES) in /home2/thebestwed/public_html/vendors/database_connection.php:5
+Stack trace:
+#0 /home2/thebestwed/public_html/vendors/database_connection.php(5): PDO->__construct('mysql:host=loca...', 'thediann_bestwe...', '!+.ub,fL$O7Y')
+#1 /home2/thebestwed/public_html/vendors/index.php(5): include('/home2/thebestw...')
+#2 {main}
+  thrown in /home2/thebestwed/public_html/vendors/database_connection.php on line 5
+[13-Mar-2023 05:30:35 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'thediann_bestweddinghub'@'localhost' (using password: YES) in /home2/thebestwed/public_html/vendors/database_connection.php:5
+Stack trace:
+#0 /home2/thebestwed/public_html/vendors/database_connection.php(5): PDO->__construct('mysql:host=loca...', 'thediann_bestwe...', '!+.ub,fL$O7Y')
+#1 /home2/thebestwed/public_html/vendors/index.php(5): include('/home2/thebestw...')
+#2 {main}
+  thrown in /home2/thebestwed/public_html/vendors/database_connection.php on line 5
+[13-Mar-2023 05:31:33 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'thediann_bestweddinghub'@'localhost' (using password: YES) in /home2/thebestwed/public_html/vendors/database_connection.php:5
+Stack trace:
+#0 /home2/thebestwed/public_html/vendors/database_connection.php(5): PDO->__construct('mysql:host=loca...', 'thediann_bestwe...', '!+.ub,fL$O7Y')
+#1 /home2/thebestwed/public_html/vendors/index.php(5): include('/home2/thebestw...')
+#2 {main}
+  thrown in /home2/thebestwed/public_html/vendors/database_connection.php on line 5
+[13-Mar-2023 05:31:33 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'thediann_bestweddinghub'@'localhost' (using password: YES) in /home2/thebestwed/public_html/vendors/database_connection.php:5
+Stack trace:
+#0 /home2/thebestwed/public_html/vendors/database_connection.php(5): PDO->__construct('mysql:host=loca...', 'thediann_bestwe...', '!+.ub,fL$O7Y')
+#1 /home2/thebestwed/public_html/vendors/index.php(5): include('/home2/thebestw...')
+#2 {main}
+  thrown in /home2/thebestwed/public_html/vendors/database_connection.php on line 5
+[13-Mar-2023 05:32:56 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'thediann_bestweddinghub'@'localhost' (using password: YES) in /home2/thebestwed/public_html/vendors/database_connection.php:5
+Stack trace:
+#0 /home2/thebestwed/public_html/vendors/database_connection.php(5): PDO->__construct('mysql:host=loca...', 'thediann_bestwe...', '!+.ub,fL$O7Y')
+#1 /home2/thebestwed/public_html/vendors/index.php(5): include('/home2/thebestw...')
+#2 {main}
+  thrown in /home2/thebestwed/public_html/vendors/database_connection.php on line 5
+[15-Mar-2023 07:48:47 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home2/thebestwed/public_html/vendors/index.php on line 215

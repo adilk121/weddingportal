@@ -1,0 +1,595 @@
+body {
+	background: #f9f9f9;
+}
+#SkillBox {
+	font-size: 20px;
+	width: 95%;
+	height: auto;
+	margin: 40px auto;
+	background-color: #fff;
+	border: 1px solid #cdcdcd;
+	padding: 10px;
+	border-radius:20px;
+	-o-border-radius:20px;
+	-webkit-border-radius:20px;
+	-ms-border-radius:20px;
+	-moz-border-radius:20px;
+}
+#SkillBox img {
+	width: 20%;
+	height: 10%;
+	margin: auto 35%;
+	padding: 10px;
+}
+.SkillBar-stripes {
+	width: 100%;
+	height: 22px;
+	position: relative;
+	background: rgba(17, 17, 17, 0.1);
+	margin: 20px auto;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+#Skill-stripes-HTML {
+	width: 100%;
+	animation: Animate-HTML 4s;
+	-webkit-animation: Animate-HTML 4s;
+	-moz-animation: Animate-HTML 4s;
+	-o-animation: Animate-HTML 4s;
+	height: 45px;
+	position: absolute;
+	background: repeating-linear-gradient(45deg, #F9690E, #F9690E 10px, #f28b4b 10px, #f28b4b 20px);
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+@keyframes Animate-HTML {
+a from {
+ width: 10px;
+}
+to {
+	width: 100%
+}
+}
+@-webkit-keyframes Animate-HTML {
+ from {
+ width: 10px;
+}
+to {
+	width: 100%
+}
+}
+@-moz-keyframes Animate-HTML {
+ from {
+ width: 10px;
+}
+to {
+	width: 100%
+}
+}
+@-o-keyframes Animate-HTML {
+ from {
+ width: 10px;
+}
+to {
+	width: 100%
+}
+}
+#Skill-stripes-CSS {
+	animation: Animate-CSS 5s;
+	-webkit-animation: Animate-CSS 5s;
+	-moz-animation: Animate-CSS 5s;
+	-o-animation: Animate-CSS 5s;
+	/*width: 70%;*/ width:85%;
+	height: 22px;
+	position: absolute;
+	background: repeating-linear-gradient(45deg, #51ad7f, #51ad7f 10px, #66CC99 10px, #66CC99 20px);
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	margin-left:5px;
+}
+@keyframes Animate-CSS {
+ from {
+ width: 10px;
+}
+to {
+	width: 70%
+}
+}
+@-webkit-keyframes Animate-CSS {
+ from {
+ width: 10px;
+}
+to {
+	width: 70%
+}
+}
+@-moz-keyframes Animate-CSS {
+ from {
+ width: 10px;
+}
+to {
+	width: 70%
+}
+}
+@-o-keyframes Animate-CSS {
+ from {
+ width: 10px;
+}
+to {
+	width: 70%
+}
+}
+#Skill-stripes-jQuery {
+	animation: Animate-jQuery 5s;
+	-webkit-animation: Animate-jQuery 5s;
+	-moz-animation: Animate-jQuery 5s;
+	-o-animation: Animate-jQuery 5s;
+	width: 40%;
+	height: 45px;
+	position: absolute;
+	background: repeating-linear-gradient(45deg, #D2527F, #D2527F 10px, #b34169 10px, #b34169 20px);
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+@keyframes Animate-jQuery {
+ from {
+ width: 10px;
+}
+to {
+	width: 40%
+}
+}
+@-webkit-keyframes Animate-jQuery {
+ from {
+ width: 10px;
+}
+to {
+	width: 40%
+}
+}
+@-moz-keyframes Animate-jQuery {
+ from {
+ width: 10px;
+}
+to {
+	width: 40%
+}
+}
+@-o-keyframes Animate-jQuery {
+ from {
+ width: 10px;
+}
+to {
+	width: 40%
+}
+}
+#Skill-stripes-JS {
+	animation: Animate-JS 4s;
+	-webkit-animation: Animate-JS 4s;
+	-moz-animation: Animate-JS 4s;
+	-o-animation: Animate-JS 4s;
+	width: 65%;
+	height: 45px;
+	position: absolute;
+	background: repeating-linear-gradient(45deg, #EF4836, #EF4836 10px, #a62b1e 10px, #a62b1e 20px);
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+@keyframes Animate-JS {
+ from {
+ width: 10px;
+}
+to {
+	width: 65%
+}
+}
+@-webkit-keyframes Animate-JS {
+ from {
+ width: 10px;
+}
+to {
+	width: 65%
+}
+}
+@-moz-keyframes Animate-JS {
+ from {
+ width: 10px;
+}
+to {
+	width: 65%
+}
+}
+@-o-keyframes Animate-JS {
+ from {
+ width: 10px;
+}
+to {
+	width: 65%
+}
+}
+#Skill-stripes-XML {
+	animation: Animate-XML 4s;
+	-webkit-animation: Animate-XML 4s;
+	-moz-animation: Animate-XML 4s;
+	-o-animation: Animate-XML 4s;
+	width: 40%;
+	height: 45px;
+	position: absolute;
+	background: repeating-linear-gradient(45deg, #446CB3, #446CB3 10px, #31528d 10px, #31528d 20px);
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+@keyframes Animate-XML {
+ from {
+ width: 10px;
+}
+to {
+	width: 40%
+}
+}
+@-webkit-keyframes Animate-XML {
+ from {
+ width: 10px;
+}
+to {
+	width: 40%
+}
+}
+@-moz-keyframes Animate-XML {
+ from {
+ width: 10px;
+}
+to {
+	width: 40%
+}
+}
+@-o-keyframes Animate-XML {
+ from {
+ width: 10px;
+}
+to {
+	width: 40%
+}
+}
+#Skill-stripes-C {
+	animation: Animate-C 4s;
+	-webkit-animation: Animate-C 4s;
+	-moz-animation: Animate-C 4s;
+	-o-animation: Animate-C 4s;
+	width: 30%;
+	height: 45px;
+	position: absolute;
+	background: repeating-linear-gradient(45deg, #674172, #674172 10px, #865b92 10px, #865b92 20px);
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+@keyframes Animate-C {
+ from {
+ width: 10px;
+}
+to {
+	width: 30%
+}
+}
+@-webkit-keyframes Animate-C {
+ from {
+ width: 10px;
+}
+to {
+	width: 30%
+}
+}
+@-moz-keyframes Animate-C {
+ from {
+ width: 10px;
+}
+to {
+	width: 30%
+}
+}
+@-o-keyframes Animate-C {
+ from {
+ width: 10px;
+}
+to {
+	width: 30%
+}
+}
+#Skill-stripes-JAVA {
+	animation: Animate-JAVA 4s;
+	-webkit-animation: Animate-JAVA 4s;
+	-moz-animation: Animate-JAVA 4s;
+	-o-animation: Animate-JAVA 4s;
+	width: 25%;
+	height: 45px;
+	position: absolute;
+	background: repeating-linear-gradient(45deg, #52B3D9, #52B3D9 10px, #4295b6 10px, #4295b6 20px);
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+@keyframes Animate-JAVA {
+ from {
+ width: 10px;
+}
+to {
+	width: 25%
+}
+}
+@-webkit-keyframes Animate-JAVA {
+ from {
+ width: 10px;
+}
+to {
+	width: 25%
+}
+}
+@-moz-keyframes Animate-JAVA {
+ from {
+ width: 10px;
+}
+to {
+	width: 25%
+}
+}
+@-o-keyframes Animate-JAVA {
+ from {
+ width: 10px;
+}
+to {
+	width: 25%
+}
+}
+#Skill-stripes-PHP {
+	animation: Animate-PHP 4s;
+	-webkit-animation: Animate-PHP 4s;
+	-moz-animation: Animate-PHP 4s;
+	-o-animation: Animate-PHP 4s;
+	width: 50%;
+	height: 45px;
+	position: absolute;
+	background: repeating-linear-gradient(45deg, #F7CA18, #F7CA18 10px, #cfab1c 10px, #cfab1c 20px);
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+@keyframes Animate-PHP {
+ from {
+ width: 10px;
+}
+to {
+	width: 50%
+}
+}
+@-webkit-keyframes Animate-PHP {
+ from {
+ width: 10px;
+}
+to {
+	width: 50%
+}
+}
+@-moz-keyframes Animate-PHP {
+ from {
+ width: 10px;
+}
+to {
+	width: 50%
+}
+}
+@-o-keyframes Animate-PHP {
+ from {
+ width: 10px;
+}
+to {
+	width: 50%
+}
+}
+#Skill-stripes-SQL {
+	animation: Animate-SQL 4s;
+	-webkit-animation: Animate-SQL 4s;
+	-moz-animation: Animate-SQL 4s;
+	-o-animation: Animate-SQL 4s;
+	width: 80%;
+	height: 45px;
+	position: absolute;
+	background: repeating-linear-gradient(45deg, #1BA39C, #1BA39C 10px, #14807a 10px, #14807a 20px);
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+@keyframes Animate-SQL {
+ from {
+ width: 10px;
+}
+to {
+	width: 80%
+}
+}
+@-webkit-keyframes Animate-SQL {
+ from {
+ width: 10px;
+}
+to {
+	width: 80%
+}
+}
+@-moz-keyframes Animate-SQL {
+ from {
+ width: 10px;
+}
+to {
+	width: 80%
+}
+}
+@-o-keyframes Animate-SQL {
+ from {
+ width: 10px;
+}
+to {
+	width: 80%
+}
+}
+#Skill-stripes-VBNET {
+	animation: Animate-VBNET 4s;
+	-webkit-animation: Animate-VBNET 4s;
+	-moz-animation: Animate-VBNET 4s;
+	-o-animation: Animate-VBNET 4s;
+	width: 35%;
+	height: 45px;
+	position: absolute;
+	background: repeating-linear-gradient(45deg, #F39C12, #F39C12 10px, #c3821b 10px, #c3821b 20px);
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+@keyframes Animate-VBNET {
+ from {
+ width: 10px;
+}
+to {
+	width: 35%
+}
+}
+@-webkit-keyframes Animate-VBNET {
+ from {
+ width: 10px;
+}
+to {
+	width: 35%
+}
+}
+@-moz-keyframes Animate-VBNET {
+ from {
+ width: 10px;
+}
+to {
+	width: 35%
+}
+}
+@-o-keyframes Animate-VBNET {
+ from {
+ width: 10px;
+}
+to {
+	width: 35%
+}
+}
+.Skill-Area {
+	z-index: 1;
+	float: left;
+	position: absolute;
+	margin-top: 10px;
+	margin-left: 10px;
+	text-shadow: none;
+	color: #fff;
+	font-family: Lato-Regular, sans-serif;
+	font-size: 18px;
+}
+.PercentText {
+	z-index: 3;
+	position: relative;
+	margin-right: 10px;
+	/*
+	margin-top: 10px;*/
+	float: right;
+	text-shadow: none;
+	color: #000;
+	font-family: Lato-Regular, sans-serif;
+	font-size: 18px;
+}
+/* Pure CSS3 jQuery-Like fadeIn
+---------------------------------------------------- */
+.fadeIn {
+	/* CSS needed for animation
+	---------------------------------------------------- */
+	opacity:0;
+	-webkit-animation:fadeIn ease-in 1;
+	-moz-animation:fadeIn ease-in 1;
+	-o-animation:fadeIn ease-in 1;
+	animation:fadeIn ease-in 1;
+	-webkit-animation-fill-mode:forwards;
+	-moz-animation-fill-mode:forwards;
+	-o-animation-fill-mode:forwards;
+	animation-fill-mode:forwards;
+}
+/* Animation Times - Time for image to fade in
+---------------------------------------------------- */
+.fadeIn-3s {
+	-webkit-animation-duration:3s;
+	-moz-animation-duration:3s;
+	-o-animation-duration:3s;
+	animation-duration:3s;
+}
+.fadeIn-5s {
+	-webkit-animation-duration:5s;
+	-moz-animation-duration:5s;
+	-o-animation-duration:5s;
+	animation-duration:5s;
+}
+/* Animation Delay - Time for image to be delayed
+---------------------------------------------------- */
+.fadeIn-Delay-3s {
+	-webkit-animation-delay:3s;
+	-moz-animation-delay:3s;
+	-o-animation-delay:3s;
+	animation-delay:3s;
+}
+.fadeIn-Delay-5s {
+	-webkit-animation-delay:5s;
+	-moz-animation-delay:5s;
+	-o-animation-delay:5s;
+	animation-delay:5s;
+}
+
+/* Key Frames
+---------------------------------------------------- */
+@-webkit-keyframes fadeIn {
+from {
+opacity:0;
+}
+to {
+	opacity:1;
+}
+}
+@-moz-keyframes fadeIn {
+from {
+opacity:0;
+}
+to {
+	opacity:1;
+}
+}
+@-o-keyframes fadeIn {
+from {
+opacity:0;
+}
+to {
+	opacity:1;
+}
+}
+@keyframes fadeIn {
+from {
+opacity:0;
+}
+to {
+	opacity:1;
+}
+}
+ @media only screen and (max-width: 40em) {
+.responsive-percent {
+ margin-right: -45px !important;
+}
+}
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+.responsive-percent {
+ margin-right: -45px !important;
+}
+}

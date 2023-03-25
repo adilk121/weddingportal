@@ -1,0 +1,120 @@
+  #snd_msg{
+    width: 49%;
+    color: white;
+    background-color: #7ba76d;
+    padding: 10px;
+    transition: color .7s, background-color .7s;
+    -webkit-transition: color .7s, background-color .7s;
+  }
+  #snd_msg:hover{
+    color: #7ba76d;
+    background-color: white;
+    border:1px solid #7ba76d;
+  }
+  #msg_icon{
+    transition: transform 1s;
+    -webkit-transition: transform 1s;
+  }
+  #snd_msg:hover #msg_icon{
+    transform: rotateY(180deg);
+  }
+  #dcln{
+    width: 49%;
+    color: white;
+    padding: 10px;
+    background-color: #ce3f3f;
+    transition: color .7s, background-color .7s;
+    -webkit-transition: color .7s, background-color .7s;   
+  }
+  #dcln:hover{
+    color: #ce3f3f;
+    background-color: white;
+    border:1px solid #ce3f3f;
+  }
+  #dcln_icon{
+    transition: transform 1s;
+    -webkit-transition: transform 1s;
+  }
+  #dcln:hover #dcln_icon{
+    transform: rotateY(180deg);
+  }
+  #sndAgain_btn{
+  width: 49%;
+  padding: 10px;
+  background-color: #4d9ad4;
+  color: white;    
+  transition: color .7s, background-color .7s;
+  -webkit-transition: color .7s, background-color .7s;
+  }
+  #sndAgain_btn:hover{
+    color: #4d9ad4;
+    background-color: white;
+    border: 1px solid #4d9ad4;
+  }
+  #sndAgain_icon{
+   transition: transform 1s;
+   -webkit-transition: transform 1s; 
+  }
+  #sndAgain_btn:hover #sndAgain_icon{
+    transform: rotateY(180deg);
+  }
+  #sndR_btn{
+    width: 49%;
+    background-color: #49bdb6;
+    color: white;
+    padding: 10px;
+    transition: color .7s, background-color .7s;
+    -webkit-transition: color .7s, background-color .7s;
+  }
+  #sndR_btn:hover{
+    color: #49bdb6;
+    background-color: white;
+    border: 1px solid #49bdb6;
+  }
+  #sndR_icon{
+   transition: transform 1s;
+   -webkit-transition: transform 1s;
+  }
+  #sndR_btn:hover #sndR_icon{
+    transform: rotateY(180deg);
+  }
+  #acpt_btn{
+    width: 49%;
+    background-color: #359245;
+    color: white;
+    padding: 10px;
+    transition: color .7s, background-color .7s;
+    -webkit-transition: color .7s, background-color .7s;    
+  }
+  #acpt_btn:hover{
+    color: #359245;
+    background-color: white;
+    border: 1px solid #359245;
+  }
+  #acpt_icon{
+   transition: transform 1s;
+   -webkit-transition: transform 1s; 
+  }
+  #acpt_btn:hover #acpt_icon{
+   transform: rotateY(360deg); 
+  }
+  #req_btn{
+    width: 100%;
+    color: white;
+    background-color: #329999;
+    padding: 10px;
+    transition: color .7s, background-color .7s;
+    -webkit-transition: color .7s, background-color .7s;
+  }
+  #req_btn:hover{
+    color: #329999;
+    background-color: white;
+    border: 1px solid #329999;
+  }
+  #req_icon{
+   transition: transform 1s;
+   -webkit-transition: transform 1s;  
+  }
+  #req_btn:hover #req_icon{
+    transform: rotateZ(180deg);
+  }

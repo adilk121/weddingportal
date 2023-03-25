@@ -1,0 +1,96 @@
+.dropdown-el {
+  /*margin-top: 20vh;*/ margin-top:3vh;
+  min-width: 12em;
+  position: relative;
+  display: inline-block;
+  margin-right: 1em;
+  min-height: 2em;
+  max-height: 2em;
+  overflow: hidden;
+  top: .5em;
+  cursor: pointer;
+  text-align: left;
+  white-space: nowrap;
+  color: #444;
+  outline: none;
+/*  border: .06em solid transparent;*/
+ /* border-radius: 1em;
+  background-color: #cde4f5;*/
+  transition: 0.3s all ease-in-out;
+  border:solid 1px #efefef; font-size:17px; 
+  
+}
+.dropdown-el input {
+  display: none;
+}
+.dropdown-el label {
+  border-top: .06em solid #d9d9d9;
+  display: block;
+  height: 2em;
+  line-height: 2em;
+ /* padding-left: 1em;
+  padding-right: 3em;*/
+  cursor: pointer;
+  position: relative;
+  transition: 0.3s color ease-in-out;
+   padding-left:2px;
+  padding-right: 25px; /*padding:5px 12px 6px 12px !important;*/ font-size:17px;
+}
+.dropdown-el label:nth-child(2) {
+  margin-top: 2em; 
+  border-top: .06em solid #d9d9d9;
+}
+.dropdown-el input:checked + label {
+  display: block;
+  border-top: none;
+  position: absolute;
+  top: 0;
+}
+.dropdown-el input:checked + label:nth-child(2) {
+  margin-top: 0;
+  position: relative;
+}
+.dropdown-el::after {
+  content: "";
+  position: absolute;
+  right: 0.8em;
+  top: 0.9em;
+  border: 0.3em solid #3694d7;
+  border-color: #3694d7 transparent transparent transparent;
+  transition: .4s all ease-in-out;
+}
+.dropdown-el.expanded {
+  border: 0.06em solid #3694d7;
+  background: #fff;
+  border-radius: .25em;
+  padding: 0;
+  box-shadow: rgba(0, 0, 0, 0.1) 3px 3px 5px 0px;
+  max-height: 15em;
+}
+.dropdown-el.expanded label {
+  border-top: .06em solid #d9d9d9;
+}
+.dropdown-el.expanded label:hover {
+  color: #3694d7;
+}
+.dropdown-el.expanded input:checked + label {
+  color: #3694d7;
+}
+.dropdown-el.expanded::after {
+  transform: rotate(-180deg);
+  top: .55em;
+}
+.so-std{color:#fff; background:#00F; border-radius:5px; text-align:center; font-size:14px; width:25px; height:25px; padding-top:6px; position:relative; top:1.5px;}
+
+/*label {
+    
+    font-size:16px !important;
+}
+*/
+@media (min-width:320px) and (max-width:767px) 
+{
+}
+
+
+
+

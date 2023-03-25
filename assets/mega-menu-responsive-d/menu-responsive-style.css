@@ -1,0 +1,113 @@
+
+.toggleMenu {
+    display:  none;
+    background: #B10A0A;
+    padding: 10px 15px;
+    color: #fff !important;
+}
+.nav {
+    list-style: none;
+     *zoom: 1;
+     background:#b10a0a;
+}
+.nav:before,
+.nav:after {
+    content: " "; 
+    display: table; 
+}
+.nav:after {
+    clear: both;
+}
+.nav ul {
+    list-style: none;
+    width: 9em; 
+}
+.nav a {
+   padding: 5px 15px;
+    color:#fff; font-size: 12px;
+}
+.nav li {
+    position: relative;
+}
+.nav > li {
+    float: left;
+    border-top: 1px solid #f94a4a;
+}
+.nav > li > .parent {
+    background-image: url("images/downArrow.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.nav > li > a {
+    display: block;
+}
+.nav li  ul {
+    position: absolute;
+    left: -9999px;
+}
+.nav > li.hover > ul {
+    left: 0;
+}
+.nav li li.hover ul {
+    left: 100%;
+    top: 0;
+}
+.nav li li a {
+    display: block;
+    background: #b10a0a;
+    position: relative;
+    z-index:100;
+    border-top: 1px solid #b10a0a;
+}
+.nav li li li a {
+    background:#cd0909;
+    z-index:200;
+    border-top: 1px solid #cd0909;
+}
+
+@media screen and (max-width: 768px) {
+    .active {
+        display: block;
+    }
+    .nav > li {
+        float: none;
+    }
+    .nav > li > .parent {
+        background-position: 95% 50%;
+    }
+    .nav li li .parent {
+        background-image: url("images/downArrow.png");
+        background-repeat: no-repeat;
+        background-position: 95% 50%;
+    }
+    .nav ul {
+        display: block;
+        width: 100%;
+    }
+   .nav > li.hover > ul , .nav li li.hover ul {
+        position: static;
+    }
+
+}
+
+.dsp-res2{display:none; left:0; position: fixed;}
+@media (min-width:320px) and (max-width:767px) 
+{.nav>li>a:focus, .nav>li>a:hover {
+    text-decoration: none;
+    background-color: #da0b0b !important;
+    font-weight: bold !important;
+}
+.nav>li>a {
+    position: relative;
+    display: block;
+    padding: 5px 10px !important;
+}
+	.dsp-res2 {
+    display: block;
+    left: 15px;
+    z-index: 1;
+    position: fixed;
+    top: 18px;
+    top: 8px;
+    width: 92%;
+}}
