@@ -1,6 +1,6 @@
 <?php
 $db = mysqli_connect('localhost','thediann_bestweddinghub','!+.ub,fL$O7Y','thediann_bestweddinghub') or die("Connection Failed");
-
+//header
 if(isset($_POST['submit']))
 {
 $name = $_POST['name'];
