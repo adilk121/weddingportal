@@ -10,6 +10,7 @@ if(empty($check_user) || $check_user_status=="Inactive"){
     unset($_SESSION['userLoginId'],$_SESSION['userLoginName']);
     session_destroy();
     header("location:index.php");
+    header("location:index.php");
     exit;
 }
 ?>

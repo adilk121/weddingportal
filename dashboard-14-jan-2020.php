@@ -2,6 +2,7 @@
 <?php include("site-main-query.php");
 if(empty($_SESSION['userLoginId'])){
   header("location:index.html");  
+  header("location:index.html");  
 }
 ?>
 <!doctype html>
