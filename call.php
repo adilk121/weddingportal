@@ -4,7 +4,6 @@
 $flag_mail=0;
  if(isset($_POST['Enq'])){
 	 
-//header
 
   @extract($_POST);
   
