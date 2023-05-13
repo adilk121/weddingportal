@@ -4,7 +4,6 @@ require_once("includes/dbsmain.inc.php");
 $otp=$_GET['otp'];
 $regID=$_GET['regID'];
 $regID=$_GET['regID'];
-//$vEmail=$_GET['vEmail'];
 
 if($otp!="" && $regID!=""){
 	
