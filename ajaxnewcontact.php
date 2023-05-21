@@ -3,6 +3,7 @@ require_once("includes/dbsmain.inc.php");
 date_default_timezone_set("asia/kolkata");
 $date_time=date("Y-m-d H:i:s");
 
+//header
   //header
 db_query("insert into tbl_contact_view set
 cv_view_by_mem_id='$_REQUEST[view_by_memid]',
