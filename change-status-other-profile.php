@@ -2,7 +2,6 @@
 ob_start();
 require_once("includes/dbsmain.inc.php"); 
 include("site-main-query.php");//header
-//header
 ?>
 <?php
 if($_REQUEST['msgID']!=""){
