@@ -2,7 +2,6 @@
 <?php include("site-main-query.php");
 if(empty($_SESSION['userLoginId'])){
   header("location:index.html");  
-//header
 	
 }
 $check_user=db_scalar("select reg_id from tbl_registration where reg_id='$_SESSION[userLoginId]' ");
