@@ -4,6 +4,7 @@ $sql="SELECT reg_member_verified_email FROM  tbl_registration WHERE reg_id='$_SE
 $MemMobile=db_scalar($sql);
 
 //header
+//header
 if(!empty($MemMobile)){
 echo "1";	
 }else{
