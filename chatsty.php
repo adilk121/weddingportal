@@ -3,6 +3,7 @@
 </div>
 <style>
 	<?php 
+//header
 //header ?>
 	.wp-styd1{bottom: 29px !important;}
 	#myBtn2{width: 50px;
