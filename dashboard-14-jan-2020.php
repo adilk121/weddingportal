@@ -3,6 +3,7 @@
 if(empty($_SESSION['userLoginId'])){
   header("location:index.html");  
   header("location:index.html");  
+  //header
 }
 ?>
 <!doctype html>
