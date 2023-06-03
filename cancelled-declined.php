@@ -2,6 +2,8 @@
 //header
 <?php include("site-main-query.php");
 if(empty($_SESSION['userLoginId'])){
+	
+//header
   header("location:index.html");  
 	
 }
