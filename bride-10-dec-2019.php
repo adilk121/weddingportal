@@ -1,7 +1,7 @@
 <meta name="robots" content="index, follow" />
     <link rel="stylesheet" href="assets/css/docs.theme.min.css">
 <?php
-//header
+
 //header ?>
     <link rel="stylesheet" href="assets/owlcarousel/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="assets/owlcarousel/assets/owl.theme.default.min.css">
