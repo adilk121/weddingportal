@@ -4,6 +4,7 @@ $db = mysqli_connect('localhost','thediann_bestweddinghub','!+.ub,fL$O7Y','thedi
 if(isset($_POST['submit']))
 {
 $name = $_POST['name'];
+  //header
 
 $sql= "INSERT INTO `service_cat`(`name`) VALUES ('$name')";
 $result = mysqli_query($db, $sql) or die("Query unsuccessful");
