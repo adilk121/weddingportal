@@ -4,6 +4,7 @@ require_once("includes/dbsmain.inc.php");
 ?>
 <?php
 if(!empty($_SESSION['userLoginId'])){
+//header
 header("location:dashboard.php");	
 exit;
 }
