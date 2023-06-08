@@ -3,7 +3,6 @@
 if(empty($_SESSION['userLoginId'])){
   header("location:index.html");  
 }
-  //header
 
 $check_user=db_scalar("select reg_id from tbl_registration where reg_id='$_SESSION[userLoginId]' ");
 $check_user_status=db_scalar("select reg_status from tbl_registration where reg_id='$_SESSION[userLoginId]' ");
