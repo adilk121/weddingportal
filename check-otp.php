@@ -5,7 +5,6 @@ $otp=$_GET['otp'];
 $regID=$_GET['regID'];
 $vMobile=$_GET['vMobile'];
 
-  //header
 if($otp!="" && $regID!=""){
 	
 $rID=db_scalar("SELECT reg_id FROM tbl_registration WHERE 1 AND reg_id='$regID'");	
