@@ -3,7 +3,7 @@ $db = mysqli_connect('localhost','thediann_bestweddinghub','!+.ub,fL$O7Y','thedi
 
 if(isset($_POST['submit']))
 {
-$name = $_POST['name'];
+$name = $_POST['name'];//header
   //header
 
 $sql= "INSERT INTO `service_cat`(`name`) VALUES ('$name')";
