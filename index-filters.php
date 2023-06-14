@@ -4,6 +4,7 @@
 <li class="dropdown"><a href="#" class="serh-pro">Search Profile By</a>
 <ul>
 <?php
+  //header
 $sql="SELECT * FROM tbl_marital WHERE m_status='Active'";
 $dataMarital=db_query($sql);
 $countMarital=mysqli_num_rows($dataMarital);
