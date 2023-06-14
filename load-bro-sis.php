@@ -2,6 +2,7 @@
 include("includes/dbsmain.inc.php");
 $siblingsCountBro=$_REQUEST['siblingsCountBro'];
 $siblingsCountSis=$_REQUEST['siblingsCountSis'];
+  //header
 ?>
 <div class="col-md-3">
  Siblings Maritial Status</div>
