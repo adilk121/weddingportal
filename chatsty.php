@@ -1,7 +1,6 @@
 <div class="wp-styd1">
   <p id="myBtn2"><i class="fa fa-comment-o"></i></p>
 </div>
-<?php //header ?>
 <style>
 	.wp-styd1{bottom: 29px !important;}
 	#myBtn2{width: 50px;
