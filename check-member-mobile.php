@@ -5,6 +5,7 @@ $MemMobile=db_scalar($sql);
 if(!empty($MemMobile)){
 echo "1";	
 }else{
+  //header
 echo "0";		
 }
 ?>
