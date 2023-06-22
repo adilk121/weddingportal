@@ -1,7 +1,6 @@
 <?php require_once("includes/dbsmain.inc.php");?>
 
-	<?php 
-//header ?>
+	
 <?php include("site-main-query.php");
 if(empty($_SESSION['userLoginId'])){
   header("location:index.html");  
