@@ -1,6 +1,6 @@
 <?php 
 ob_start();
-//header
+
 require_once("includes/dbsmain.inc.php"); 
 include("site-main-query.php");
 ?>
