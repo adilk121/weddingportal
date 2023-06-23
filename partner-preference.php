@@ -1,4 +1,4 @@
-<?php require_once("includes/dbsmain.inc.php");?>
+<?php require_once("includes/dbsmain.inc.php");//header?>
 <!doctype html>
 <html>
 <head>
