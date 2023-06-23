@@ -4,6 +4,7 @@ date_default_timezone_set("asia/kolkata");
 require_once("includes/dbsmain.inc.php"); 
 include("site-main-query.php");
 
+	//header
 $MemID=$_REQUEST['MemID'];
 $userid=$_REQUEST['userid'];
             $chk_photo_req=db_scalar("SELECT request_to FROM tbl_request WHERE request_to='$MemID'");
