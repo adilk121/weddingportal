@@ -57,7 +57,7 @@
 </style>
 
 
-
+<?php //header?>
 <!-- The modaldolly -->
 <div id="mymodaldollychat1" class="modaldolly" style="overflow:hidden; z-index:9999;">
   <div class="modaldolly-content2">
