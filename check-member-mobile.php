@@ -1,4 +1,5 @@
-<?php 
+
+<?php //header?><?php 
 require_once("includes/dbsmain.inc.php");
 //header
 $sql="SELECT reg_member_verified_mobile FROM  tbl_registration WHERE reg_id='$_SESSION[regID]'";
