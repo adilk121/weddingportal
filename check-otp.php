@@ -1,4 +1,5 @@
-<?php
+
+<?php //header?><?php
 require_once("includes/dbsmain.inc.php");
 //header
 ////////////////////////   FOR MEMBER MOBILE VERIFICATION /////////////////////////////
