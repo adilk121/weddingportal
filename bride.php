@@ -1,4 +1,5 @@
-<meta name="robots" content="index, follow" />
+<meta name="robots" content="index, follow" /><?php
+//header ?>
     <link rel="stylesheet" href="assets/css/docs.theme.min.css">
 
  <link rel="stylesheet" href="assets/owlcarousel/assets/owl.carousel.min.css">
