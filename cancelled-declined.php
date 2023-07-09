@@ -1,4 +1,4 @@
-<?php //header ?><?php require_once("includes/dbsmain.inc.php");?>
+<?php require_once("includes/dbsmain.inc.php");?>
 
 	
 <?php include("site-main-query.php");
