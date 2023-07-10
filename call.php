@@ -1,6 +1,4 @@
-
-
-<?php //header ?><!--Call back section-->
+<!--Call back section-->
 <?php
 $flag_mail=0;
  if(isset($_POST['Enq'])){
