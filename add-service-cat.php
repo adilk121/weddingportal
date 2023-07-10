@@ -1,4 +1,6 @@
-<?php
+
+
+<?php //header ?><?php
 $db = mysqli_connect('localhost','thediann_bestweddinghub','!+.ub,fL$O7Y','thediann_bestweddinghub') or die("Connection Failed");
 
 if(isset($_POST['submit']))
