@@ -1,4 +1,4 @@
-<div id="myModalPassword" class="modal">
+<?php //hheader?><div id="myModalPassword" class="modal">
 <div class="modal-content" id="img01">
 <div class="col-md-10 col-md-offset-1 cng-pw">
 <h2 class="bg-clrd_f">Forgot Password<span id="close_password_popup" class="close">&times;</span></h2>
