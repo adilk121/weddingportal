@@ -1,5 +1,5 @@
 <?php
-include("includes/dbsmain.inc.php");
+include("includes/dbsmain.inc.php");//hheader
 ?>
 <?php
 $country=$_REQUEST['id'];
