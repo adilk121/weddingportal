@@ -1,6 +1,6 @@
 <?php
 include("includes/dbsmain.inc.php");
-?>
+//hheader?>
 <?php
 $country=$_REQUEST['id'];
 //if($country=='India'){
