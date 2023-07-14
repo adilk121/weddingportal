@@ -1,6 +1,6 @@
 <?php require_once("includes/dbsmain.inc.php");?>
 <?php include("site-main-query.php");
-if(empty($_SESSION['userLoginId'])){
+if(empty($_SESSION['userLoginId'])){//header
   header("location:index.html");  
 }
 $check_user=db_scalar("select reg_id from tbl_registration where reg_id='$_SESSION[userLoginId]' ");
