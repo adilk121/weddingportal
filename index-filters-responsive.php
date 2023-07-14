@@ -8,7 +8,7 @@
 $sql="SELECT * FROM tbl_marital WHERE m_status='Active'";
 $dataMarital=db_query($sql);
 $countMarital=mysqli_num_rows($dataMarital);
-if($countMarital){
+if($countMarital){//header
 ?>    
 <li class="test">
 <a href="#">Matrial Status</a>
