@@ -6,7 +6,7 @@
 <?php
   //header
 $sql="SELECT * FROM tbl_marital WHERE m_status='Active'";
-$dataMarital=db_query($sql);
+$dataMarital=db_query($sql);//header
 $countMarital=mysqli_num_rows($dataMarital);
 if($countMarital){
 ?>
