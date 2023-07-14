@@ -1,5 +1,5 @@
 <?php
-$page_name=basename($_SERVER['PHP_SELF'],'.php');
+$page_name=basename($_SERVER['PHP_SELF'],'.php'); //header
 $sql="SELECT * FROM tbl_registration AS r INNER JOIN tbl_msg_box AS mb ON r.reg_id=mb.msg_from_mem_id  WHERE r.reg_status='Active' AND mb.msg_to_mem_id='$userDATA[reg_id]' AND mb.msg_status='Pending'";
 $dataRecievedPending=db_query($sql);
 $countRecievedPending=mysqli_num_rows($dataRecievedPending);
