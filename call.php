@@ -1,5 +1,5 @@
 <!--Call back section-->
-<?php //header ?><?php
+<?php
 $flag_mail=0;
  if(isset($_POST['Enq'])){
 	 
