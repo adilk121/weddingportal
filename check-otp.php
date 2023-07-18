@@ -1,7 +1,6 @@
 
 <?php //header?><?php
 require_once("includes/dbsmain.inc.php");
-//header
 ////////////////////////   FOR MEMBER MOBILE VERIFICATION /////////////////////////////
 $otp=$_GET['otp'];
 $regID=$_GET['regID'];
