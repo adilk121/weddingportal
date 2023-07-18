@@ -3,7 +3,6 @@ ob_start();
 require_once("includes/dbsmain.inc.php"); 
 ?>
 <?php
-//header
 if(!empty($_SESSION['userLoginId'])){
 header("location:dashboard.php");	
 
