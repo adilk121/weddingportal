@@ -7,6 +7,6 @@ if(!empty($MemMobile)){
 echo "1";	
 }else{
 echo "0";		
-}
+} ///header
 ?>
 
