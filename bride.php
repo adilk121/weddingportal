@@ -1,4 +1,4 @@
-<?php //header?>
+
 <meta name="robots" content="index, follow" />
     <link rel="stylesheet" href="assets/css/docs.theme.min.css">
 
