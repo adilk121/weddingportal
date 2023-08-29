@@ -1,4 +1,4 @@
-<?php 
+<?php /header?><?php 
 
 //database_connection.php
 
