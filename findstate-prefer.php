@@ -1,4 +1,4 @@
-<?php
+<?php //header ?><?php
 include("includes/dbsmain.inc.php");
 //hheader?>
 <?php
