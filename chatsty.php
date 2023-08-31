@@ -1,4 +1,4 @@
-<?php //header ?><?php //header?>
+<?php //header?>
 <div class="wp-styd1">
   <p id="myBtn2"><i class="fa fa-comment-o"></i></p>
 </div>
